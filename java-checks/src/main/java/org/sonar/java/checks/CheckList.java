@@ -525,6 +525,7 @@ public final class CheckList {
       .add(PredictableSeedCheck.class)
       .add(RedundantStreamCollectCheck.class)
       .add(GettersSettersOnRightFieldCheck.class)
+      .add(DoublePrefixOperatorCheck.class)
       .build();
   }
 
